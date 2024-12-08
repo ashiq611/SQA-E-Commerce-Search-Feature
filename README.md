@@ -1,74 +1,95 @@
-Dynamic Search Implementation & Testing
-This repository contains the solutions and reports for Module 7's assignment, focused on implementing and testing a dynamic search feature for a shoe-selling e-commerce platform. The solutions include requirement analysis, test case design, test execution, and a happy path journey analysis using both API and UI testing.
+# Module 7 Assignment: Dynamic Search Implementation & Testing
 
-Table of Contents
-Problem Overview
-Solutions Overview
-Q1: Requirement Analysis
-Q2: Test Case Design
-Q3: Test Execution
-Q4: Happy Path Journey & Feedback
-Artifacts
-Postman API Documentation
-Getting Started
-Authors
-Problem Overview
-The assignment simulates the scenario of adding and testing a Dynamic Search Feature for a shoe-selling e-commerce platform. The key tasks include:
+This repository contains the solutions for Module 7's assignment, focused on implementing and testing a dynamic search feature for a shoe-selling e-commerce platform.
 
-Gathering requirements for the search feature.
-Designing test cases.
-Executing test cases on the Evershop demo site.
-Performing a happy path journey and analyzing results.
-Solutions Overview
-Q1: Requirement Analysis
-The client wants a dynamic search feature. To understand and prioritize the implementation details, 10 specific questions were formulated to ensure proper scoping and alignment with the client's vision.
+---
 
-Document Link:
-Requirement Analysis Questions
+## Table of Contents
 
-Q2: Test Case Design
-Based on the gathered requirements, detailed test cases were created. These test cases cover functionality, edge cases, and performance for the dynamic search feature.
+1. [Overview](#overview)  
+2. [Artifacts](#artifacts)  
+3. [Task Breakdown](#task-breakdown)  
+   - [Q1: Requirement Analysis](#q1-requirement-analysis)  
+   - [Q2: Test Case Design](#q2-test-case-design)  
+   - [Q3: Test Execution](#q3-test-execution)  
+   - [Q4: Happy Path Journey & Feedback](#q4-happy-path-journey--feedback)  
+4. [Postman API Documentation](#postman-api-documentation)  
+5. [Contact](#contact)  
 
-Spreadsheet Link:
-Test Cases for Dynamic Search
+---
 
-Q3: Test Execution
-The designed test cases were executed on the Evershop Demo Site (https://demo.evershop.io/). A comprehensive test report was generated after analyzing the results of the execution.
+## Overview
 
-Spreadsheet Link:
-Test Execution Report
+This project simulates a real-world scenario of implementing a **Dynamic Search Feature** for an e-commerce platform. The tasks include:
+- Gathering client requirements for the search functionality.
+- Designing test cases based on the requirements.
+- Executing the test cases on the [Evershop Demo Site](https://demo.evershop.io/).
+- Performing a happy path journey test using both API and UI, logging defects, and generating a final report.
 
-Q4: Happy Path Journey & Feedback
-The happy path journey includes:
+---
 
-Searching for "Nike React Phantom Run Flyknit 2".
-Adding small-sized black products to the cart.
-Verifying the cart via both API and UI testing.
-Defect logs, feedback, and a summary of the test analysis are provided in the following report.
+## Artifacts
 
-Spreadsheet Link:
-Happy Path Journey & Defects Log
+- **Q1: Requirement Analysis Document**  
+  [Requirement Analysis Questions](https://docs.google.com/document/d/1DsiBQ88g_dPr2ZPK4WFT-SGvpOGhgmkUPPtTbwtBGpU/edit?usp=sharing)
 
-Artifacts
-Requirement Analysis Document: Link
-Test Cases and Execution Report: Link
-Happy Path & Defect Logs: Link
-Postman API Documentation
-The API testing for the dynamic search feature and happy path journey was performed using Postman. Explore the detailed API request-response flow in the Postman collection.
+- **Q2 & Q3: Test Case Design and Execution Report**  
+  [Test Cases & Execution Report](https://docs.google.com/spreadsheets/d/1wP6caGQGzrfj6fsvPvnCkVhC1oGQ9cDQNry2TBWuzBU/edit?usp=sharing)
 
-Postman Documentation:
-API Testing Documentation
+- **Q4: Happy Path Journey & Defect Logs**  
+  [Happy Path & Feedback Report](https://docs.google.com/spreadsheets/d/13U3QSVGemnSZU66QalH9eIdDeiUEJWzWfwF78wL6ei4/edit?usp=sharing)
 
-Getting Started
-Clone this repository:
-bash
-Copy code
-git clone https://github.com/your-username/module-7-assignment.git
-Access the linked documents for detailed explanations and results.
-For API testing, import the Postman collection and set up your environment.
-Test the Evershop Demo Site (https://demo.evershop.io/) following the provided test cases.
-Authors
-[Your Name]
-Engineering Graduate, Skilled in Software Quality Assurance
-Email: your.email@example.com
-GitHub: your-username
+- **Postman API Documentation**  
+  [Postman Collection](https://documenter.getpostman.com/view/33549775/2sAYBPkuQN)
+
+---
+
+## Task Breakdown
+
+### Q1: Requirement Analysis
+
+The client wants a **dynamic search** feature. Ten prioritized questions were created to gather detailed requirements.  
+**Document Link:** [Requirement Analysis Questions](https://docs.google.com/document/d/1DsiBQ88g_dPr2ZPK4WFT-SGvpOGhgmkUPPtTbwtBGpU/edit?usp=sharing)
+
+---
+
+### Q2: Test Case Design
+
+Based on the gathered requirements, detailed test cases were created to validate the functionality of the search feature.  
+**Spreadsheet Link:** [Test Cases for Dynamic Search](https://docs.google.com/spreadsheets/d/1wP6caGQGzrfj6fsvPvnCkVhC1oGQ9cDQNry2TBWuzBU/edit?usp=sharing)
+
+---
+
+### Q3: Test Execution
+
+The designed test cases were executed on the **Evershop Demo Site**. A detailed report was generated analyzing the test results.  
+**Spreadsheet Link:** [Test Execution Report](https://docs.google.com/spreadsheets/d/1wP6caGQGzrfj6fsvPvnCkVhC1oGQ9cDQNry2TBWuzBU/edit?usp=sharing)
+
+---
+
+### Q4: Happy Path Journey & Feedback
+
+This task involved:
+1. Searching for **"Nike React Phantom Run Flyknit 2"**.
+2. Adding small-sized black products to the cart.
+3. Verifying the cart via both API and UI testing.
+
+Feedback and defect logs were documented in the report.  
+**Spreadsheet Link:** [Happy Path Journey & Defects Log](https://docs.google.com/spreadsheets/d/13U3QSVGemnSZU66QalH9eIdDeiUEJWzWfwF78wL6ei4/edit?usp=sharing)
+
+---
+
+## Postman API Documentation
+
+The API testing for the dynamic search feature and happy path journey was performed using Postman. Explore the detailed API request-response flow here:  
+**Postman Documentation Link:** [API Testing Documentation](https://documenter.getpostman.com/view/33549775/2sAYBPkuQN)
+
+---
+
+## Contact
+
+**Md. Ashiqur Rahman**  
+Engineering Graduate | Software Quality Assurance Enthusiast  
+- Email: ashiqur.rahman.dev@gmail.com
+- GitHub: [ashiq611](https://github.com/ashiq611)  
+- LinkedIn: [Md. Ashiqur Rahman](https://www.linkedin.com/in/mdashiqurrahman1102/)
