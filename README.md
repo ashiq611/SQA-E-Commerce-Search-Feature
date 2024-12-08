@@ -1,6 +1,6 @@
-Dynamic Search Implementation & Testing of E-Commerce
+# Dynamic Search Implementation & Testing of E-Commerce
 
-This repository contains the solutions for Ostad assignment, focused on implementing and testing a dynamic search feature for a shoe-selling e-commerce platform.
+This repository contains the solutions for Module 7's assignment, focused on implementing and testing a dynamic search feature for a shoe-selling e-commerce platform.
 
 ---
 
